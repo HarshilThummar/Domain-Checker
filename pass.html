@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Domain Scanner Result</title>
+    <style>
+        .container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #f79d9d;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #f79d9d;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the first h1 tag */
+h1:nth-of-type(1) {
+  color: #1e90ff;
+  
+}
+
+/* Style the second h1 tag */
+h1:nth-of-type(2) {
+  color: #ffa500;
+}
+
+/* Style the third h1 tag */
+h1:nth-of-type(3) {
+  color: #ff69b4;
+}
+
+/* Style the fourth h1 tag */
+h1:nth-of-type(4) {
+  color: #41e191;
+}
+
+/* Style the fifth h1 tag */
+h1:nth-of-type(5) {
+  color: #00ced1;
+}
+
+/* Style the sixth h1 tag */
+h1:nth-of-type(6) {
+  color: #be2ea6;
+}
+
+/* Style the sixth h1 tag */
+h1:nth-of-type(7) {
+  color: #be682e;
+}
+
+/* Style the sixth h1 tag */
+h1:nth-of-type(8) {
+  color: #1a9620;
+}
+
+/* Style the sixth h1 tag */
+h1:nth-of-type(9) {
+  color: #6c2ebe;
+}
+
+/* Style the sixth h1 tag */
+h1:nth-of-type(10) {
+  color: #dbd142;
+}
+
+/* Style the sixth h1 tag */
+h1:nth-of-type(11) {
+  color: #be2e41;
+}
+
+/* Style the sixth h1 tag */
+h1:nth-of-type(12) {
+  color: #1a9e67c0;
+}
+
+/* Style the sixth h1 tag */
+h1:nth-of-type(13) {
+  color: #e01414;
+}
+
+/* Style the last h1 tag */
+h1:last-of-type {
+  color: #808080;
+  margin-top: 20px;
+}
+
+body {
+  background-image: url("./bg.jpeg");
+}
+
+    </style>
+
+</head>
+<body>
+  <!-- <img style="width: 56px; height: 123px;" src="./bg.jpeg" alt="Image"> -->
+    <div class="container">
+      <center style="color: #be682e; font-size: larger; font-weight: bold; font-family: 'Times New Roman', Times, serif;"><b><u>
+        All About The Website URL</u></b></center>
+        <h1>URL: {{ url }} </h1>
+        <h1>IP: {{ ip_address }} </h1>
+        <h1>Domain Name: {{ domain_name }} </h1>
+        <h1>Host Name: {{ host_name }} </h1>
+        <h1>Server Name: {{ server_name }} </h1>
+        <h1>Server Location (Country): {{ server_location }} </h1>
+        <h1>City: {{ city }} </h1>
+        <h1>State: {{ state }} </h1>
+        <h1>Secured or Not: {{ res }} </h1>
+        <h1>Creatified or Not: {{ ssl_response }} </h1>
+        <h1>Creation Date: {{ creation_date }} </h1>
+        <h1>Updated Date: {{ updated_date }} </h1>
+        <h1>Expiration Date: {{ expiration_date }} </h1>
+
+    </div>
+</body>
+</html>
+
